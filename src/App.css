@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+/* Set the default color of the star icons to transparent */
+.react-stars-empty-icon, .react-stars-half-icon, .react-stars-full-icon {
+    color: transparent  !important;
+    opacity: .5;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  }
+
+  body {
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 100vw;
+overflow-x: hidden;
+/* height: 100vh; */
+}
+
+.privacy-policy h2,
+.privacy-policy h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
